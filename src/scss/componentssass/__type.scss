@@ -1,7 +1,5 @@
-@font-face {
-    font-family: 'Custom Font';
-    src: url(''),
-         url('path/to/custom-font.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+h2 {
+     font-family: 'Rubik', sans-serif;
+     font-size: 40px;
+     padding: 5px;
+}

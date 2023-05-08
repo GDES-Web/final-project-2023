@@ -81,6 +81,7 @@ table {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .crd .crdimg {
+  background-color: #EF7E7F;
   overflow: hidden;
 }
 
@@ -354,6 +355,7 @@ table {
   padding-bottom: none;
   overflow: hidden;
   height: 600px;
+  padding: 0;
 }
 
 .hero-text {
@@ -367,11 +369,18 @@ table {
   background-color: rgba(246, 249, 249, 0.5);
   display: block;
   border-radius: 10px;
+  padding-bottom: none;
 }
 @media (max-width: 686px) {
   .hero-text {
     display: none;
   }
+}
+
+.hero {
+  margin: none;
+  height: 600px;
+  padding-bottom: none;
 }
 
 .palette {
@@ -560,12 +569,12 @@ input[type=checkbox] {
   color: rgb(97, 93, 93);
 }
 
-@font-face {
-  font-family: "Custom Font";
-  src: url(""), url("path/to/custom-font.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 40px;
+  padding: 5px;
 }
+
 .alertbanner {
   background-color: rgb(255, 108, 157);
   display: block;
@@ -580,6 +589,8 @@ input[type=checkbox] {
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  padding-top: none;
 }
 
 .gallery {
@@ -631,6 +642,11 @@ input[type=checkbox] {
 }
 .palette.accent {
   background-color: #8F1926;
+}
+
+.singers {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
