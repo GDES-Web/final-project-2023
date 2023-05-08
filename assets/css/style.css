@@ -60,7 +60,7 @@ table {
   margin: 15px;
 }
 .palette.mainblue {
-  background-color: #104E85;
+  background-color: #0004ff;
 }
 .palette.smokyblue {
   background-color: #2A6C94;
@@ -81,7 +81,6 @@ table {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .crd .crdimg {
-  background-color: #EF7E7F;
   overflow: hidden;
 }
 
@@ -172,7 +171,7 @@ table {
   width: 100%;
   border-radius: 8px;
   overflow: hidden;
-  margin-bottom: none;
+  padding: none;
 }
 
 .crd4 {
@@ -287,7 +286,7 @@ table {
 .skillsset {
   display: flex;
   flex-direction: column;
-  background-color: #104E85;
+  background-color: #0011ff;
   align-items: center;
   padding: 10px;
   justify-content: center;
@@ -301,7 +300,7 @@ table {
   margin: 15px;
 }
 .palette.mainblue {
-  background-color: #104E85;
+  background-color: #0004ff;
 }
 .palette.smokyblue {
   background-color: #2A6C94;
@@ -317,7 +316,7 @@ table {
 }
 
 .footerdev {
-  background-color: #104E85;
+  background-color: #0011ff;
   display: block;
   width: 100%;
   height: 200px;
@@ -371,7 +370,7 @@ table {
   border-radius: 10px;
   padding-bottom: none;
 }
-@media (max-width: 686px) {
+@media (max-width: 949px) {
   .hero-text {
     display: none;
   }
@@ -391,7 +390,7 @@ table {
   margin: 15px;
 }
 .palette.mainblue {
-  background-color: #104E85;
+  background-color: #0004ff;
 }
 .palette.smokyblue {
   background-color: #2A6C94;
@@ -458,7 +457,7 @@ table {
   padding: 1em 0;
   border-radius: 8px;
   top: 35px;
-  background-color: #EF7E7F;
+  background-color: #00c4fb;
 }
 
 .dropdown li {
@@ -496,7 +495,7 @@ input[type=checkbox] {
   .menu {
     display: none;
     position: absolute;
-    background-color: #104E85;
+    background-color: #0011ff;
     right: 0;
     left: 0;
     text-align: center;
@@ -537,7 +536,7 @@ input[type=checkbox] {
   }
 }
 .btndefault {
-  background-color: rgb(255, 0, 72);
+  background-color: rgb(38, 0, 255);
   height: 50px;
   width: 95px;
   border-radius: 10px;
@@ -552,14 +551,14 @@ input[type=checkbox] {
 }
 
 .btndefault:hover, .hover {
-  background-color: rgb(255, 68, 117);
+  background-color: rgb(184, 23, 50);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   transition: 0.03s ease-in-out;
 }
 
 .btndefault:active,
 .btnactive {
-  background-color: rgb(255, 0, 111);
+  background-color: rgb(249, 247, 248);
   color: rgb(5, 41, 244);
   box-shadow: rgb(168, 168, 168) 2px 2px 2px;
 }
@@ -576,13 +575,13 @@ h2 {
 }
 
 .alertbanner {
-  background-color: rgb(255, 108, 157);
+  background-color: rgb(255, 2, 2);
   display: block;
-  position: fixed;
   padding: 10px;
   width: 100%; /* Change this value to adjust the width of the centered element */
   text-align: center;
   color: aliceblue;
+  margin: none;
 }
 
 .containerwrapper {
@@ -591,6 +590,11 @@ h2 {
   flex-direction: column;
   margin: 0 auto;
   padding-top: none;
+}
+
+.singers {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .gallery {
@@ -629,7 +633,7 @@ h2 {
   margin: 15px;
 }
 .palette.mainblue {
-  background-color: #104E85;
+  background-color: #0004ff;
 }
 .palette.smokyblue {
   background-color: #2A6C94;

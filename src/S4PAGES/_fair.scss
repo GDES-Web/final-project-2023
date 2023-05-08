@@ -1,4 +1,6 @@
-.singers {
-    display: flex;
-    flex-wrap: wrap;
+.pictures {
+    @media (max-width: 813px) {
+        display: block;
+        height: 50px;
+    }
 }
